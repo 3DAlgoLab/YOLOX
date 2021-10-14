@@ -21,5 +21,5 @@ class Exp(MyExp):
         self.num_classes = 71
 
         self.max_epoch = 300
-        self.data_num_workers = 4
+        self.data_num_workers = 1 # adjust for colab & other pc
         self.eval_interval = 1
